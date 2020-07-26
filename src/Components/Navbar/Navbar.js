@@ -15,6 +15,9 @@ const useStyles = makeStyles((theme) => ({
   toolbar: {
     background: 'white',
     color: '#11718F',
+    "&.MuiPaper-elevation4": {
+      boxShadow: '0px 0px 3px rgba(0, 0, 0, 0.25)',
+    }
   },
   menuButton: {
     marginRight: theme.spacing(1),

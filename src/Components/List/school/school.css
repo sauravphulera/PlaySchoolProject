@@ -1,0 +1,122 @@
+.school-card {
+  width: 92%;
+  height: 35%;
+  /* left: 488px; */
+  /* top: 131px; */
+  /* border: 2px solid white; */
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 1.8rem;
+}
+.school-inner-card {
+  padding: 1em;
+  width: 97%;
+  height: 89%;
+  display: flex;
+}
+.school-picture {
+  width: 39%;
+  background: gray;
+  height: 100%;
+}
+.school {
+  width: 60%;
+  padding-left: 1em;
+}
+.card-title {
+  font-family: Righteous;
+  /* font-style: normal; */
+  /* font-weight: normal; */
+  font-size: 40px;
+  line-height: 50px;
+}
+.card-subtitle {
+  display: flex;
+  align-items: center;
+}
+.star {
+  display: inline-block;
+  padding-bottom: 2px;
+  padding-left: 1px;
+}
+
+.star:after {
+  content: "\2605";
+  font-size: 22px;
+}
+.rating-box {
+  width: 56.21px;
+  background: #11718f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.card-rating {
+  display: flex;
+  align-items: center;
+  margin-top: 0.3em;
+}
+.extra-info {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  border: 1px solid #11718f;
+  padding: 0 7px 0 2px;
+  border-radius: 5vw;
+  color: #11718f;
+  font-weight: bold;
+  font-size: 14px;
+}
+.card-facilities {
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  min-width: 350px;
+}
+.ameneties {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  /* color: #11718F; */
+  width: 50%;
+}
+.ameneties-container {
+  margin-top: 0.5em;
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  min-width: 19em;
+  flex-wrap: wrap;
+}
+.school-action-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.school--enquiry-btn {
+  background: #11718f;
+  border-radius: 8px;
+  width: 186px;
+  height: 44px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  line-height: 21px;
+}
+.school--enquiry-btn:active {
+  outline: none;
+  animation: rippleDrop .6s ease-out;
+}
+.school--enquiry-btn:focus {
+  outline: none;
+}
+
+@keyframes rippleDrop {
+  100% {
+    opacity: 0;
+  }
+}
+.school--enquiry-btn:hover {
+  cursor: pointer;
+}
